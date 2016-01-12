@@ -1,0 +1,80 @@
+
+
+
+.mycarousel{
+position: relative;
+width: 760px;
+background-color: #fff;
+margin:30px auto 20px auto;
+}
+
+.carouselcontainer{
+	height: 340px;
+	margin:0px;
+	background: url(../images/background.jpg) no-repeat 0px 0px;
+}
+.captioncontainer{
+	width: 435px;
+	margin:0px 0px 0px 165px;
+	padding: 0px 0px 0px 20px;
+	border-left: 3px solid red;
+}
+
+#caro{
+	margin:0px auto 0px auto;
+	width: 608px;
+	height: 308px;
+}
+#caro img{	
+	width: 308px;
+	height: 225px;
+	cursor: pointer;
+}
+#captions h2 { font-family: Georgia; font-size: 32px; font-weight: normal; margin: 0px 0px 5px 0px; color: #6d8824; }
+#captions p { font-family: Arial; font-size: 14px; color: #444; margin: 0px 0px 0px 3px; }
+.caroseldata{
+	display: none;
+}
+.prevItem{
+	position:absolute;
+	top:230px;
+	right: 0px;
+	z-index: 1001;
+	cursor: pointer;
+}
+.nextItem{
+	position:absolute;
+	top:230px;
+	left: 0px;
+	z-index: 1001;
+	cursor: pointer;
+}
+
+.leaves{
+	position:absolute;
+	top:270px;
+	left: 102px;
+	z-index: 1003
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
